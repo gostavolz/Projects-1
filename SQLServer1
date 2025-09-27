@@ -23,7 +23,7 @@ foreign key (ID_Nomes)
 references Nomes (ID)
 on delete cascade;
 
-insert into Nomes (CPF, Nome) values(123456789, 'Jo„o Silva');
+insert into Nomes (CPF, Nome) values(123456789, 'Jo√£o Silva');
 insert into Nomes (CPF, Nome) values(987654321, 'Maria Souza');
 insert into Nomes (CPF, Nome) values(456789123, 'Carlos Oliveira');
 insert into Nomes (CPF, Nome) values(321654987, 'Ana Martins');
@@ -33,7 +33,7 @@ insert into Nomes (CPF, Nome) values(369258147, 'Ricardo Lima');
 insert into Nomes (CPF, Nome) values(258147369, 'Fernanda Costa');
 insert into Nomes (CPF, Nome) values(753159456, 'Bruno Mendes');
 insert into Nomes (CPF, Nome) values(147258369, 'Luciana Dias');
-insert into Nomes (CPF, Nome) values(951753852, 'AndrÈ Ramos');
+insert into Nomes (CPF, Nome) values(951753852, 'Andr√© Ramos');
 GO
 
 insert into Idade (Idade) values(27);
